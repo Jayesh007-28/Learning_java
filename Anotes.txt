@@ -89,3 +89,12 @@ Theory :- 1.When we put satic in front of something (variable,method,class) it m
     2.It will have a only one copy in the memory , only one copy to the members exsist in amemory regardless of how many object of the class you create  
     3.we access without creating object using className.memberNames
 
+Constructor:-
+    Defination:-A Constructor is a special block of code in java , which has same name as class name and runs automatically when we create object using new keyword.
+    1.no returntype even void
+    2.same name as class name
+    3.it is call automatically when we create object
+
+this keyword:-
+    Theory:- this keyword refers to current object of class and mainly use to reslove naming conflicts between fields and parameters to passed to current object to other method and to call one Constructor from another method.
+    2. without this compiler gets confused and if instance variable na,e and local variable name are same.
