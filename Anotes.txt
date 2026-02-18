@@ -1,0 +1,91 @@
+Class:-
+1. Class is blueprint of object
+2. Class is collection of variable,objects,methods.
+3. Class Consist of state and behavior of object.
+4. Class doesn't occupy the memory until the object is created.
+5. And object cannot exsist without class but class can exsist without any object.
+6. Class name always start with uppercase.
+Ex:- Think of class is a recipie and object is a actual thing that is crated using that recipie book.
+
+Syntax of Class:-
+   access_modifier Class className{
+        state,
+        behavior / methods
+   }
+
+objects:-
+1.Object is instance of class that has state and behavior.
+2.Object always occupy memory
+3.Object is a runtime entity.
+
+Syntax of object:-
+    className objName = new className();
+    
+
+Bike:-
+1:- state : color,speed,brand name
+2:- behavior :- strat,stop,moving,break,accelrate
+
+Bnak
+1:- state : Account Number ,Account Holder Name
+2:- behavior :- deposit, withdraw,checkBalance,transferMoney
+
+Methods:-
+Defination :- A block of code that perform specfic task or work
+Advantages:- Code become modular, it provide reusability, it's easy read , debug , maintaince  [using method]
+Disadvantages :- Code become lengthy , increase complexity , hard to maintain [without method]
+
+Syntax of method :- 
+    access_modifier returnType methodName(){
+        //block of code
+    }
+
+Types of methods :-Method with no return Types
+    1.Method with no return Types
+    2.Method with return parameter
+    3.Method with parameter
+    4.Method with no parameter
+    5.Static method
+    6.Instance method
+
+1.Method with no return Types :-
+    Defination :- A method that does not return any value
+
+    Syntax:-
+        access_modifier void methodName(){
+            //block of code
+        }
+
+2.Method with return parameter:-
+    Defination:- A method that return a value to the caller(main methos)
+    Syntax:-
+        access_modifier returnType methodName(){
+            //block of code
+        }
+    
+3.Method with parameter:-
+    Defination:- A method that accept input values.
+    Syntax:-
+        access_modifier returnType methodName(parameters){
+            //block of code
+        }
+
+4.Method with no parameter:-
+    Defination:-A method does not take any input
+
+5.Static method:-
+    Defination:-A method that belong to the class not to the object
+    
+
+6.Instance method:-
+     Defination:-
+
+Q.Why main method is always static?
+Ans -> 1.The jvm calls main method without creating any object so its always static.
+       2.In satic is does create any object.
+
+*Static keyword:-
+Theory :- 1.When we put satic in front of something (variable,method,class) it means this things belongs to class not to the any object
+    2.It will have a only one copy in the memory , only one copy to the members exsist in amemory regardless of how many object of the class you create  
+    3.we access without creating object using className.memberNames
+
