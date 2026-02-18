@@ -95,6 +95,24 @@ Constructor:-
     2.same name as class name
     3.it is call automatically when we create object
 
+Constructor vs Method
+    Constructor     	            Method
+Same name as class	         Any name
+No return type	             Must have return type
+Called automatically	     Called manually
+Used to initialize object	 Used to perform actions
+
+Default Constructor:-
+    1.Constructor with no parameter 
+    2.if progrmmer don't create Constructor then java create automatically
+    3.When we wnat to set Default values then we use Default Constructor.
+
+Parametried Constructor:-
+    1.Constructor with parameters.
+Copy Constructor:-
+    1.We create backup
+    
+
 this keyword:-
     Theory:- this keyword refers to current object of class and mainly use to reslove naming conflicts between fields and parameters to passed to current object to other method and to call one Constructor from another method.
     2. without this compiler gets confused and if instance variable na,e and local variable name are same.
