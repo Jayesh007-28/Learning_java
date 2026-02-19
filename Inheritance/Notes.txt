@@ -1,0 +1,24 @@
+Inheritance :- 
+    1.Inheritance allows child class(derived class) to reuse the properties and method of parent class(base class).
+    2.Instead of rewrinting the same code in multiple palces we allow child class to reuse the parent properties and methods.
+
+Types of Inheritance:-
+1.Single Inheritance
+2.Muli-level Inheritance
+3.Hierarchical Inheritance
+4.Multiple Inheritance (not suppored by java but we can achive this by interface)
+
+1.Single Inheritance
+Benefits :- 1) reusability 2) maintainability 3)scalability
+
+* syntax of Single Inheritance :-
+
+    class parent {
+        // properties and methods
+    }
+    class child extends parent {
+        // additional properties and methods
+    }
+
+2.Muli-level Inheritance:-
+    
