@@ -27,9 +27,22 @@ public class Dynamic_dispatch {
         Phone obj = new Phone();
         obj.greet();
         obj.name();
+        // obj.swagat();  //Not allow
 
         SmartPhone msg = new SmartPhone();
         msg.name();
+        msg.swagat();
         msg.greet();
+
+        Phone obj3 = new SmartPhone();
+        obj3.name();
+        obj3.greet();
+
+        // obj3.swagat(); // Not allowed
+ 
+        SmartPhone op = (SmartPhone)obj3;
+        op.swagat();
+
+        ((SmartPhone)obj3).swagat();
     }
 }
