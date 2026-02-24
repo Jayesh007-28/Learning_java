@@ -68,9 +68,5 @@ public class overriding_emp{
         In.perdaySalary=500;
 
         In.showDetails();
-
-
-
-
     }
 }
