@@ -20,5 +20,7 @@ public class overloading {
         System.out.println("PRoperty tax as per area : "+obj.calculateTax(700.12));
         System.out.println("PRoperty tax as per propertyValue : "+obj.calculateTax(7000000));
         System.out.println("PRoperty tax as per area and propertyvlaue : "+obj.calculateTax(700, 700));
+
+        
     }
 }
