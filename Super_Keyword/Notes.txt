@@ -1,0 +1,17 @@
+Super Keyword :-
+     Therory :- 1) super Keyword is use to refer to the parent class object
+     2) If child class wants to talk parent class it uses super Keyword,
+
+Interview Questions?
+Que 1. Difference between This and Super Keyword
+1.)This refers to current object.
+Super refers to parent class object.
+
+2) This use for current variable
+Super use for parent variable
+
+2) This use for current construtor
+   Super use for parent construtor
+
+Que 2. Can we use Super in static method?
+Ans :- No because the super to object and static method belongs to class not to object.
