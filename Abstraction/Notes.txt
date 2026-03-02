@@ -1,0 +1,11 @@
+Abstraction :-
+    Defination :-  Abstraction is process is showing only important details and hiding internal implementation to the user.
+    2)It can be done by interface and abstract class.
+    3)Abstraction solve the problem at design level
+
+abstract class and the method:-
+
+    1).To create abstract class we use abstract keyword
+    2).abstract class are imcomplete (because abstract methods created by using abstract keyword and when we create abstract method we dont have implementation)
+    3).we can not create instance of abstract class.
+    4)When we inherite abstract class we should provide a implementation for the abstract method else we have an error.
