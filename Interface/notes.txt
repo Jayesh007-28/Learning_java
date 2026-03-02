@@ -1,0 +1,13 @@
+Interface :-
+Theory
+1)just like a class an interface can contain properties (variables) and the methods but the methods are only declared not implemented
+2)we create interface using interface keyword
+3)In all interface members are public by default 
+4)If a class implements an interface it must provide implementation for all the methods all the abstract methods otherwise gets complie time error
+
+Uses :- 
+1)Interfaces use to achive 100% abstsrction
+2)Interfaces use to define common behaivour across unrelated classes
+3)Interfaces use to achive multiple inheritance
+4)Interfaces use to achive lose coupling on our code
+5)It is mostly use in framework,API's and design patterns

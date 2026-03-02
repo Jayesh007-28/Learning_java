@@ -1,0 +1,4 @@
+Encapsulation :-
+
+1)Keeping an object data safe from careless or inlegal access and exposing clean code for other to use that object correctly.
+2)Bundle data and the code into one unit and restrict direct access to the data using access modifier typically by Keeping feilds private and exposing public methods 
