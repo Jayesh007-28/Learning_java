@@ -20,5 +20,30 @@ Benefits :- 1) reusability 2) maintainability 3)scalability
         // additional properties and methods
     }
 
-2.Muli-level Inheritance:-
+4.Multiple Inheritance (Using Interface) :-
+    Multiple inheritance is a concept where one class inherits properties and behavior from more than one parent class.
+
+        Class A
+             |
+        --------------
+        |            |
+     Class B      Class C
+        |            |
+        --------------
+             |
+          Class D
+
+          Example :- We can take Two interfaces one is account operation interface which content deposit functionallty other is loan operation interface which content loan functionallty then samrt account class implements both the interfae.
+
+Rules of inheritance :- 
+1)Parent construtor is always calls first.
+2)Parent cannot access child only members.
+3)Parent referrals can point to child object.
+4)Multiple inheritance is not suppored by class but we can use interface to implements multiple     inheritance.
+
+
+
+Super Keyword :-
+     Therory :- 1) super Keyword is use to refer to the parent class object
+     2) If child class wants to talk parent class it uses super Keyword,
     
