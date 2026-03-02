@@ -1,0 +1,17 @@
+Access modifier:- 1) Access modifier define the visiblity and accessbility of a class , methods and other member.
+		  2)Access modifier determines where these members can be access within the code of our project
+
+Types of Access modifier :-
+1)public 
+2)private
+3)protected
+4)default
+
+Why Access Modifiers Are Used?
+1) To implement Encapsulation
+2) To provide Security
+3) To control access of data
+4) To protect variables from unauthorized changes
+5) To maintain proper OOP structure
+
+Getters and setters :- Getters and setters are methods which are used to access ,set,and update private vaiable of a class 
