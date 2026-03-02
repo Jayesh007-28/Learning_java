@@ -7,11 +7,15 @@ Class:-
 6. Class name always start with uppercase.
 Ex:- Think of class is a recipie and object is a actual thing that is crated using that recipie book.
 
+*State :- State consits of Properties , Feilds , Attributes.
+*Behavior of Object :- Behavior of Object means methods
 Syntax of Class:-
    access_modifier Class className{
         state,
         behavior / methods
    }
+
+*access_modifier :- 1)Public 2)private 3)protected 4)Default
 
 objects:-
 1.Object is instance of class that has state and behavior.
@@ -39,8 +43,12 @@ Syntax of method :-
     access_modifier returnType methodName(){
         //block of code
     }
+*methods :- Defination - A block of code that performs specific task or work
+	1)Predefined Method :- Predefined methods are built-in methods provided by Java API that we can directly use         without writing their implementation.
 
-Types of methods :-Method with no return Types
+	2)User-Defined Method :- User-defined methods are methods that are created by the programmer to perform a         specific task.
+
+Types of userdefined methods :-
     1.Method with no return Types
     2.Method with return parameter
     3.Method with parameter
@@ -82,7 +90,7 @@ Types of methods :-Method with no return Types
 
 Q.Why main method is always static?
 Ans -> 1.The jvm calls main method without creating any object so its always static.
-       2.In satic is does create any object.
+       2.In satic is does not create any object.
 
 *Static keyword:-
 Theory :- 1.When we put satic in front of something (variable,method,class) it means this things belongs to class not to the any object
@@ -114,5 +122,9 @@ Copy Constructor:-
     
 
 this keyword:-
-    Theory:- this keyword refers to current object of class and mainly use to reslove naming conflicts between fields and parameters to passed to current object to other method and to call one Constructor from another method.
-    2. without this compiler gets confused and if instance variable na,e and local variable name are same.
+    Theory:- this keyword refers to current object of class and mainly use to reslove 	naming conflicts between fields and parameters to passed to current object to 	other method and to call one Constructor from another method.
+    2. without this compiler gets confused and if instance variable na,e and local 	variable name are same.
+
+
+Dry :- Do not Repeat Yourself 
+	1)Main purpose of OOPs
