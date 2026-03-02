@@ -24,8 +24,17 @@ class Savingaccount extends Account{
 class currentAc extends Account{
     double overdraftlimit;
 
-    void displyLimit(){
-        System.out.println("Display limit : "+overdraftlimit);
+    // void displyLimit(){
+    //     System.out.println("Display limit : "+overdraftlimit);
+    // }
+
+    void withdraw(double amount){
+        if(balance + overdraftlimit >= amount) {
+            balance -= amount;
+            System.out.println("Withdrawn "+amount +". Remaining Balance : "+balance);
+        }else{
+            System.out.println("Overdraft limit exceeded!");
+        }
     }
 }
 
@@ -34,13 +43,14 @@ public class Hierarchical_Inheritance {
         Savingaccount ac = new Savingaccount();
         currentAc ac1 = new currentAc();
         ac.AcHolderName="Jayesh_jadhav";
-        ac.balance=10000.0;
-        ac.intrate=3;
-        ac1.overdraftlimit=3;
+        ac.balance=1000.0;
+        ac.intrate=5;
+        ac1.overdraftlimit=1000;
 
         ac.deposit(5000.0);
         ac.applyinterestRate();
 
-        ac1.displyLimit();
+        ac1.deposit(1000);
+        ac1.withdraw(3500.0);
     }
 }
