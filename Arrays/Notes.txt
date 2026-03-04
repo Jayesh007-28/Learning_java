@@ -1,0 +1,10 @@
+Array:-
+-An array is an container that stores multiple values on a same type in a single variable.
+-An array represents a group of element of same data-type.
+-An array is a collection of similar type of data having contigous memory allocation.
+-The indexing of the array strat from zero that is first element will be stored at the zero th index and secound element stored at the first index and so on. 
+-The size of array can not be increase at runtime therefore we can store only a fixed size of element in array .
+- Array size is immutable (can not be changed)
+
+Where for loop use in real world Project:-
+Storing for id's , for storing temporiry data and store for token.
