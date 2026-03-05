@@ -8,3 +8,7 @@ Array:-
 
 Where for loop use in real world Project:-
 Storing for id's , for storing temporiry data and store for token.
+
+
+Jacked Array : -
+- Jacked array is array where each row can have different number of colums.
